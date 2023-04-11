@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="main.css"> 
+    <title>Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <h2><img src="images/contatos.png"/>Minha agenda de contatos</h2>
+        </header>
+        <form id="formulario-contato">
+        <input type="text" id="nome-contato" required placeholder="Nome do contato">
+        <input type="number" id="numero-contato" required placeholder="Telefone com DDD">
+        <button type="submit">Cadastrar + </button> 
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead> 
+            <tbody>
+                <tr> 
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> Quantidade de contatos </td>
+                    <td id="quantidade-contatos"> -- </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: "Secular One", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    justify-content: space-between;
+}
+
+body {
+    background-color:aliceblue;
+}
+
+img {
+    height:30px;
+}
+
+header {
+    display: inline-flex;
+}
+
+header img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+form {
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+form input {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 7px;
+    margin:5px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+
+form button {
+    background-color: greenyellow;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 15px;
+}
+
+form button:hover {
+    background-color: rgb(138, 206, 36);
+}
+
+table {
+    justify-content: space-between;
+    max-width: 640px;
+    width: 100%;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+table th {
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
