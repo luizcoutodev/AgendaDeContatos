@@ -33,6 +33,8 @@ function adicionaLinhas(){
             alert('O número está incorreto. Por favor digite um número com DDD + 9 dígitos. Ex: 22997616669')
         }
     }
+    inputNome.value = '';
+    inputNumero.value = '';
 }
 
 function atualizaQuantidade(){
